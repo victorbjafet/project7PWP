@@ -9,14 +9,13 @@
 ### add definitions
 <br>
 
-# Format of Programming Plan
+## Format:
 ### 1. description/intro
 ### 2. definitions
 ### 3. questions
-### 4. use cases
-### 5. algorithm (i think this is just the flow chart in text form)
-### 6. flowchart
-### 7. testcases
+### 4. algorithm (i think this is just the flow chart in text form)
+### 5. flowchart
+### 6. testcases
 <br>
 
 # Code Base Source:

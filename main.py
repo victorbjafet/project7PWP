@@ -50,7 +50,7 @@ while(canVideo.isOpened()): #while the video is running
             displayedFrame = gframe
         
         try: #if circles are detected
-            circles = np.uint16(np.around(circles)) #rounds the circles to the nearest integer, because the houghcircles method returns floats
+            circles = np.uint16(np.around(circles)) #basically rounds the values of the circles array to the nearest integer
             for i in circles[0,:]: #for each circle detected (array of circles, each circle is an array of 3 values: x, y, radius)
                 # draw the outer circle
                 cv.circle(displayedFrame,(i[0],i[1]),i[2],(0,255,0),2) #draws the circle (image object, center, radius, color, thickness)
